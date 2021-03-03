@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Righteous", cursive; */
+  font-size: 16px;
+}
+
+/*Geral*/
+.menu {
+  font-family: "Righteous", cursive;
+  position: fixed;
+  height: 100vh;
+  background-color: #264653;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu header {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.menu header img {
+  height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.menu header h1 {
+  font-size: 1.5rem;
+}
+
+/*Parte do login*/
+.loginForm {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 2rem;
+}
+.loginForm input[type="text"] {
+  width: 80%;
+}
+.loginForm input[type="password"] {
+  width: 80%;
+}
+
+.loginForm label {
+  margin: 0.5rem 0;
+}
+
+.fileInput {
+  /* display: grid;
+  grid-template-columns: 30% auto; */
+  padding: 1rem;
+  padding-left: 10%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.fileInput button {
+  border: 0;
+  background: #2a9d8f;
+  height: 2rem;
+  width: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  margin-left: 0.3rem;
+  transform: translateY(-10%);
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.fileInput button img {
+  height: 2rem;
+  width: 2rem;
+  flex: 1;
+}
+
+.fileInput button:hover {
+  filter: brightness(0.9);
+  box-shadow: 0 0 10px rgba(233, 296, 106, 0.64);
+}
+
+.loginForm label {
+  padding-left: 5%;
+}
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+  width: 90%;
+  align-self: center;
+}
+.line {
+  height: 3px;
+  width: 100%;
+  background: #2a9d8f;
+  margin-top: 2rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Parte do email*/
+.mailForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+.mailForm label {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+.mailForm textarea {
+  height: 8rem;
+}
+
+.mailForm button {
+  margin-top: 1rem;
+  background: #2a9d8f;
+  font-family: "Righteous", cursive;
+  border: 0;
+  border-radius: 8px;
+  height: 2rem;
+  width: 5rem;
+  box-shadow: 0 0 10px rgba(233, 296, 106, 0.64);
+  transition: filter 0.3s;
+  align-self: flex-end;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.mailForm button:hover {
+  filter: brightness(0.7);
+}
+
+/*Parte da visualização à direita*/
+.previewScreen {
+  font-family: "Righteous", cursive;
+  width: 70%;
+  float: right;
+  height: 100vh;
+  background: #e9c46a;
+
+  display: grid;
+  grid-template-rows: (1fr, 1fr);
+}
+
+/* .previewScreen div {
+  border: 1px solid black; 
+}*/
+
+.previewTable {
+  position: relative;
+}
+
+.previewTable p span {
+  float: right;
+  margin-right: 5rem;
+}
+
+p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.tableContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  background: #b39856;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  height: 30%;
+  overflow: auto;
+}
+
+/*Agora tentando estilizar a tabela!*/
+
+table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  width: 100%;
+  margin: auto;
+  font-family: inherit;
+}
+
+table thead tr {
+  background-color: #2a9d8f;
+  text-align: left;
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #ddd;
+}

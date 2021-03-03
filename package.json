@@ -1,0 +1,16 @@
+{
+  "name": "freemailer",
+  "version": "1.0.0",
+  "description": "An app that lets you deliver emails to a column of a csv file filled with email adresses.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}

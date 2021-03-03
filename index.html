@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Freemailer</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class='main'>
+        <div class="menu">
+            <header>
+                <img src="./mailer.png" alt='logo' />
+                <h1>Freemailer</h1>
+            </header>
+            <div class="loginForm">
+                <div class="fileInput">
+                    <input type="file" id="myFile" name="filename">
+                    <button onclick="upload()"><img src="arrow.png"></button>
+                </div>
+                <label>
+                    login:
+                </label>
+                <input type="text" />
+                <label>
+                    password:
+                </label>
+                <input type="password" />
+                <div class="line"></div>
+                
+                
+                
+            </div>
+            <div class="mailForm">
+                <label>E-mail Subject:</label>
+                <input type="text" />
+                <label>E-mail body:</label>
+                <textarea></textarea>
+                <button id='sendButton'>SEND!</button>
+            </div>
+        </div>
+        <div class='previewScreen'>
+            <div class="previewTable">
+                <p>Table: 
+                    <span><input type="checkbox">Include first row</span>
+                    </p>
+                    <div class="tableContainer">
+                    
+                    </div>
+                
+            </div>
+            <div class="previewMail">
+                <p>Preview:</p>
+            </div>
+            
+        </div>
+
+    </div>
+<script src="toTable.js"></script>
+</body>
+</html>
