@@ -1,6 +1,6 @@
-## Freemailer
+<h1 style="display: flex; align-content: center; justify-content: center"> <img style="height: 3rem; margin-right: 1rem" src="mailer.png"> Freemailer </h1>
 
-### ATENÇÃO: AINDA NÃO FUNCIONAL
+<h2 style="color: red; font-weight: 600; text-align: center">ATENÇÃO: AINDA NÃO FUNCIONAL </h2>
 
 Estágio de desenvolvimento!
 
