@@ -1,6 +1,6 @@
-<h1 style="display: flex; align-content: center; justify-content: center"> <img style="height: 3rem; margin-right: 1rem" src="mailer.png"> Freemailer </h1>
+# Freemailer
 
-<h2 style="color: red; font-weight: 600; text-align: center">ATENÇÃO: AINDA NÃO FUNCIONAL </h2>
+### ATENÇÃO: AINDA NÃO FUNCIONAL
 
 Estágio de desenvolvimento!
 
@@ -8,5 +8,6 @@ O projeto Freemailer destina-se a automatizar o processo de enviar um e-mail (gm
 
 Faz-se o upload do arquivo, você faz o login pela plataforma do aplicativo desktop (Não se preocupe, ele é open-source e você pode conferir por si mesmo o código e sua assertada segurança).
 
-PS.: No primeiro envio, por enquanto faz-se necessário permitir por meio da plataforma google o uso de apps terceiros para esse envio de email. Em versões futuras isso será corrigido.
 <img style="border-radius: 10px; margin: 2rem auto" src="appScreen.png">
+
+PS.: No primeiro envio, por enquanto faz-se necessário permitir por meio da plataforma google o uso de apps terceiros para esse envio de email. Em versões futuras isso será corrigido.
